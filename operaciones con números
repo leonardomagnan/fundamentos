@@ -1,0 +1,33 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c ;
+    cout<< "ingrese el primer dato: ";
+    cin>>a;
+    cout<< "ingrese el segundo dato: ";
+    cin>>b ;
+    c=a+b ;
+    cout<< "el resultado es: "<<c <<endl;
+    c=a-b ;
+    cout<< "la resta es: "<<c <<endl;
+    c=a*b;
+    cout<< "la multiplicacion es: "<<c <<endl;
+    c=a/b;
+    cout<< "la division es: "<<c <<endl;
+    c=a%b;
+    cout<<"el modulo es: "<<c <<endl;
+    
+
+    return 0 ;
+}
