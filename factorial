@@ -1,0 +1,27 @@
+// factial.cpp : Defines the entry point for the console application.
+//
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+{
+	int i, factorial, numero;
+	i=1;
+	factorial=1;
+	cout<<"ingresar el numero";
+		cin>>numero;
+		while (i<=numero)
+		{
+			factorial=factorial*i;
+				i=i+1;
+		}
+		cout<< "el valor de: "<<numero<<" es: "<<factorial;
+
+getch();
+    
+	
+}
