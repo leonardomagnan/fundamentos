@@ -1,0 +1,33 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+{
+	int n, i, suma;
+	
+	cout<<"ingrese una cantidad n de numeros: ";
+		cin>>n;
+		i=0;
+		suma=0;
+while (i<=n)
+		{
+			suma=suma+i; //acomulador de la suma
+				i=i+1; //ahumentar el contador
+			    
+}
+
+	cout<< "el suma es: "<<suma<<endl;
+
+getch();
+
+
+
+
+    
+	
+
+}
