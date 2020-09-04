@@ -1,0 +1,48 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+{
+	int n, mayor, i, numero, menor;
+	
+	float preomedio, suma;
+	
+	cout<<"ingrese una cantidad n de numeros: ";
+		cin>>n;
+		i=1;
+		suma=0;
+	cout<<"ingrese un valor: ";
+		cin>> numero;
+		mayor=numero;
+        menor=numero;
+
+while (i<=n)
+		{
+			suma=suma+numero; //acomulador de la suma
+				i=i+1; //ahumentar el contador
+			if(mayor<numero)
+			   mayor=numero;
+			   if(menor>numero)
+				  menor=numero;
+			   if(i<=n){
+			      cout<<"ingrese un valor: ";
+				  cin>> numero;
+			   }
+}
+	cout<< "el mayor es: "<<mayor<<endl;
+	cout<< "el menor es: "<<menor<<endl;
+	cout<< "el promedio es: "<<suma/n<<endl;
+
+getch();
+
+
+
+
+    
+	
+
+}
