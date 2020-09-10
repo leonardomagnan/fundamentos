@@ -1,0 +1,31 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+using namespace std;
+
+void main() 
+{
+     int n, i=1, mayor, menor;     
+          float suma;
+     suma=0;
+cout<<"Ingresar un número entero: ";
+cin>>n;
+mayor=n;
+menor=n;
+do{
+   suma=suma+n;
+ if (mayor<n)
+	 mayor=n;
+ if(menor>n)
+	 menor=n;
+ i++;
+ cout<<"Ingresar un número entero: ";
+cin>>n;
+} while (n>=0);
+cout<<"el mayor es: "<<mayor<<endl;
+cout<<"el menor es: "<<menor<<endl;
+cout<<"el promedio es: "<<suma/i<<endl;
+
+getch();
+
+}
