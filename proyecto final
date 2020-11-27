@@ -1,0 +1,1612 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+#include "stdlib.h"
+#include <string>
+#include "Archivos.h"
+
+
+using namespace std;
+
+Archivos Registros;
+
+int CementoSoboceIP30(int );
+int CementoItacambaIP30(int );
+int CementoWarnesIP30(int );
+int CementoSoboceIP40(int );
+int CementoItacambaIP40(int );
+int CementoWarnesIP40(int );#pragma once
+
+#include "iostream"
+#include <string>
+#include "fstream"
+
+using namespace std;
+
+class Archivos{ 
+private: 
+	ofstream Fout;
+	string nombreCliente;
+	string correo;
+	string telefono;
+	string factura;
+	string ubicacion;
+	string recomendacion;
+	string NIT;
+
+public:
+	Archivos(void);
+	void setArchivo(string Ncliente, string email, string celular,
+	string recibo, string direccion,string sugerencia, string NITX);
+};#pragma once
+
+#include "iostream"
+#include <string>
+#include "fstream"
+
+using namespace std;
+
+class Archivos{ 
+private: 
+	ofstream Fout;
+	string nombreCliente;
+	string correo;
+	string telefono;
+	string factura;
+	string ubicacion;
+	string recomendacion;
+	string NIT;
+
+public:
+	Archivos(void);
+	void setArchivo(string Ncliente, string email, string celular,
+	string recibo, string direccion,string sugerencia, string NITX);
+};#pragma once
+
+#include "iostream"
+#include <string>
+#include "fstream"
+
+using namespace std;
+
+class Archivos{ 
+private: 
+	ofstream Fout;
+	string nombreCliente;
+	string correo;
+	string telefono;
+	string factura;
+	string ubicacion;
+	string recomendacion;
+	string NIT;
+
+public:
+	Archivos(void);
+	void setArchivo(string Ncliente, string email, string celular,
+	string recibo, string direccion,string sugerencia, string NITX);
+};#pragma once
+
+#include "iostream"
+#include <string>
+#include "fstream"
+
+using namespace std;
+
+class Archivos{ 
+private: 
+	ofstream Fout;
+	string nombreCliente;
+	string correo;
+	string telefono;
+	string factura;
+	string ubicacion;
+	string recomendacion;
+	string NIT;
+
+public:
+	Archivos(void);
+	void setArchivo(string Ncliente, string email, string celular,
+	string recibo, string direccion,string sugerencia, string NITX);
+};#pragma once
+
+#include "iostream"
+#include <string>
+#include "fstream"
+
+using namespace std;
+
+class Archivos{ 
+private: 
+	ofstream Fout;
+	string nombreCliente;
+	string correo;
+	string telefono;
+	string factura;
+	string ubicacion;
+	string recomendacion;
+	string NIT;
+
+public:
+	Archivos(void);
+	void setArchivo(string Ncliente, string email, string celular,
+	string recibo, string direccion,string sugerencia, string NITX);
+};#pragma once
+
+#include "iostream"
+#include <string>
+#include "fstream"
+
+using namespace std;
+
+class Archivos{ 
+private: 
+	ofstream Fout;
+	string nombreCliente;
+	string correo;
+	string telefono;
+	string factura;
+	string ubicacion;
+	string recomendacion;
+	string NIT;
+
+public:
+	Archivos(void);
+	void setArchivo(string Ncliente, string email, string celular,
+	string recibo, string direccion,string sugerencia, string NITX);
+};#pragma once
+
+#include "iostream"
+#include <string>
+#include "fstream"
+
+using namespace std;
+
+class Archivos{ 
+private: 
+	ofstream Fout;
+	string nombreCliente;
+	string correo;
+	string telefono;
+	string factura;
+	string ubicacion;
+	string recomendacion;
+	string NIT;
+
+public:
+	Archivos(void);
+	void setArchivo(string Ncliente, string email, string celular,
+	string recibo, string direccion,string sugerencia, string NITX);
+};#pragma once
+
+#include "iostream"
+#include <string>
+#include "fstream"
+
+using namespace std;
+
+class Archivos{ 
+private: 
+	ofstream Fout;
+	string nombreCliente;
+	string correo;
+	string telefono;
+	string factura;
+	string ubicacion;
+	string recomendacion;
+	string NIT;
+
+public:
+	Archivos(void);
+	void setArchivo(string Ncliente, string email, string celular,
+	string recibo, string direccion,string sugerencia, string NITX);
+};
+
+int tuberia1(int );
+int tuberia2(int );
+int tuberia3(int );
+
+int ladrillo1(int );
+int ladrillo2(int );
+int ladrillo3(int );
+
+int madera1(int );
+int madera2(int );
+int madera3(int );
+int madera4(int );
+int madera5(int );
+int madera6(int );
+int madera7(int );
+int madera8(int );
+
+int Cseco1(int );
+int Cseco2(int );
+int Cseco3(int );
+int Cseco4(int );
+int Cseco5(int );
+int Cseco6(int );
+int Cseco7(int );
+int Cseco8(int );
+int Cseco9(int );
+
+int techo1(int );
+int techo2(int );
+int techo3(int );
+int techo4(int );
+
+int suelo1(int );
+int suelo2(int );
+int suelo3(int );
+int suelo4(int );
+int suelo5(int );
+int suelo6(int );
+int suelo7(int );
+
+int baño1 (int );
+int baño2 (int );
+int baño3 (int );
+int baño4 (int );
+int baño5 (int );
+int baño6 (int );
+int baño7 (int );
+
+int puerta1(int );
+int puerta2(int );
+int puerta3(int );
+int puerta4(int );
+
+int vidrio1(int );
+int vidrio2(int );
+int vidrio3(int );
+int vidrio4(int );
+
+int pintura1(int );
+int pintura2(int );
+int pintura3(int );
+int pintura4(int );
+int pintura5(int );
+
+int sellador1(int );
+int sellador2(int );
+int sellador3(int );
+int sellador4(int );
+
+int barniz1(int );
+int barniz2(int );
+int barniz3(int );
+int barniz4(int );
+
+
+int main(){
+	
+system("COLOR E0");
+int S1=0,S2=0,S3=0,S4=0,S5=0,S6=0,S7=0,S8=0,S9=0,S10=0,S11=0,S12=0,S13=0,S14=0,S15=0,S16=0,S17=0,S18=0,S19=0,S20=0,S21=0,S22=0,S23=0,S24=0;
+int S25=0,S26=0,S27=0,S28=0,S29=0,S30=0,S31=0,S32=0,S33=0,S34=0,S35=0,S36=0,S37=0,S38=0,S39=0,S40=0,S41=0,S42=0,S43=0,S44=0,S45=0,S46=0,S47=0;
+int S48=0,S49=0,S50=0,S51=0,S52=0,S53=0,S54=0,S55=0,S56=0,S57=0,S58=0,S59=0,S60=0,S61=0,S62=0,S63=0,S64=0,S65=0,S66=0,S67=0,S68=0,S69=0;
+int opcion,opcion1,opcion2;
+int opc,opc1,opc2,opc4,opc5,opc6,opc3;
+int op1,op2,op3,op4;
+int o,o1,o2,o3,o4;
+string nombreCliente,correo,telefono,factura,ubicacion,recomendacion,NIT,ins;
+
+
+
+ cout<<"-------------------BIENVENIDOS A INSTA.MAT---------------------------"<<endl<<endl;
+
+cout<<"[En este sitio usted puede encontrar el material que necesita, de una forma eficiente.]"<<endl<<endl;
+cout<<"Arma tu carrito de materiales INSTAMAT"<<endl<<endl;
+
+cout<<"[Ingrese sus datos personales]"<<endl;
+cout<<"Ingrese su nombre completo : "; getline(cin,nombreCliente);
+cout<<"Ingrese su correo electronico : "; getline(cin,correo);
+cout<<"Ingrese su numero de telefono : "; getline(cin,telefono);
+
+do{
+cout<<"\n DESCUBRE CON INSTAMAT :"<<endl<<endl;
+
+cout<<"-----------------------------------------------------------------------------------------"<<endl;
+cout<<"1) CONSTRUCCION"<<endl;
+cout<<"2) DECORA TU HOGAR"<<endl;
+cout<<"3) REPARA TU HOGAR"<<endl;
+cout<<"4) Carrito lleno [ finalizar compra ] "<<endl;
+
+cout<<"-----------------------------------------------------------------------------------------"<<endl;
+cin>>opc;
+switch(opc){
+       case 1: 
+		       cout<<"              BIENVENIDOS A INSTAMAT CONSTRUCCION"<<endl<<endl;
+		       cout<<"                     - Selecciones un area de interes"<<endl;
+			   cout<<"                        1) CEMENTO"<<endl;
+			   cout<<"                        2) TUBERIAs"<<endl;
+			   cout<<"                        3) LADRILLO"<<endl;
+			   cout<<"                        4) MADERA"<<endl;
+			   cout<<"                        5) CONTRUCCION EN SECO"<<endl;
+			   cout<<"                        6) TECHO"<<endl;
+			   cout<<"                        0) SALIR"<<endl;
+			   cin>>opcion;
+			       switch(opcion){
+			       case 1: cout<<"                    [OFERTAS DISPONIBLES]"<<endl<<endl;
+					       cout<<"                     1) IP30 ------- > SOBOCE----------> [48 Bs.]"<<endl;
+						   cout<<"                     2) IP30 ------- > ITACAMBA--------> [47 Bs.]"<<endl;
+						   cout<<"                     3) IP30-------- >CEMENTO WARNES---> [48 Bs.] "<<endl;
+						   cout<<"                     4) IP40 ------- > SOBOCE----------> [45 Bs.]"<<endl;
+						   cout<<"                     5) IP40 ------- > ITACAMBA--------> [43 Bs.]"<<endl;	   
+						   cout<<"                     6) IP 40------- >CEMENTO WARNES---> [44 Bs.] "<<endl;
+						   cout<<"                     0) ATRAS"<<endl;
+						   cin>>opc1;
+						         switch(opc1){
+								 case 1: cout<<"               [CEMENTO SOBOCE IP30]"<<endl;
+									     int X;
+						                 S1= CementoSoboceIP30(X);
+						                 cout<<S1<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						                  break;
+								 case 2: cout<<"                [CEMENTO ITACAMBA IP30]"<<endl;
+									      int X1;
+						                  S2=CementoItacambaIP30(X1);
+						                 cout<<S2<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										 break;
+								 case 3: cout<<"                [CEMENTO WARNES IP30]"<<endl;
+									     int X2;
+						                 S3=CementoWarnesIP30(X2);
+						                 cout<<S3<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										 break;
+								 case 4: cout<<"                [CEMENTO SOBOCE IP40]"<<endl;
+									     int X3;
+										 S4=CementoSoboceIP40(X3);
+										 cout<<S4<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										 break;
+								 case 5: cout<<"                 [CEMENTO ITACAMBA IP40]"<<endl;
+									     int X4;
+										 S5=CementoItacambaIP40(X4);
+										 cout<<S5<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										 break;
+								 case 6: cout<<"                  [CEMENTO WARNES IP40]"<<endl;
+									     int X5;
+										 S6=CementoWarnesIP40(X5);
+										 cout<<S6<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										 break;
+								 case 0: cout<<"ATRAS"<<endl;
+									     break;
+									
+								           }
+				   
+			       break;
+				   case 2: cout<<"                [OFERTAS DISPONIBLES]"<<endl<<endl; 
+					   cout<<"1) TUBERIA PVC HELICOIDAL 1000 mL -----> DISMAT------->[1.450 Bs.]"<<endl;
+					   cout<<"2) TUBERIA PVC HELICOIDAL 600 mL ------> DISMAT------->[860 Bs.]"<<endl;
+					   cout<<"3) TUBERIA PVC HELICOIDAL 700mL -------> DISMAT------->[950 Bs.]"<<endl;
+					   cout<<"0) ATRAS"<<endl;
+					   cin>>opc2;
+					             switch(opc2){
+				                 case 1: cout<<"[OPCION 1]"<<endl;
+									   int X6;
+										 S7=tuberia1(X6);
+										 cout<<S7<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						               break;
+					             case 2: cout<<"[OPCION 2]"<<endl;
+                                           int X7;
+										 S8=tuberia2(X7);
+										 cout<<S8<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										 break;
+					             case 3: cout<<"[OPCION 3]"<<endl;
+									    int X8;
+										 S9=tuberia3(X8);
+										 cout<<S9<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										 break;
+						       
+								 case 0: cout<<"ATRAS"<<endl;
+								 break;
+					             }
+					 break;
+				   case 3: cout<<"        [OFERTAS DISPONIBLES]"<<endl<<endl; 
+					       cout<<"1) Cermica perforada ----------> Gladymar -------> [1.36 Bs]"<<endl;
+						   cout<<"2) Cocido de arcilla ----------> Gladymar -------> [1.26 Bs.]"<<endl;  
+						   cout<<"3) Hueco perforado al canto ---> Ceramica Norte -> [2.30 Bs.]"<<endl;
+						   cout<<"0)ATRAS"<<endl;
+						   cin>>opc3;
+						         switch(opc3){
+						         case 1:cout<<"[Cermica Perforada]"<<endl;
+									 int X9;
+									 S10= ladrillo1(X9);
+									 cout<<S10<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						         break;
+								 case 2: cout<<"[Conocido Arcilla]"<<endl;
+									 int X10;
+									 S11=ladrillo2(X10);
+									 cout<<S11<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								 break;
+								 case 3: cout<<"[Hueco perforadp]"<<endl;
+									 int X11;
+									 S12=ladrillo3(X11);
+									 cout<<S12<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								 break;
+								 case 0: cout<<"ATRAS"<<endl;
+								 break;
+						         }
+				      break;
+
+				   case 4:  cout<<"[OFERTAS DISPONIBLES]"<<endl<<endl;
+				   cout<<"1) OSB LP [9.5mm][2.44m , 1.22m]------------------>SYNERGY->[143 Bs.]"<<endl;
+				   cout<<"2) OSB LP [11.1mm][2.44m , 1.22m]----------------->SYNERGY->[160 Bs.]"<<endl;
+				   cout<<"3) OSB LP [15.1mm][2.44m , 1.22m]----------------->SYNERGY->[212 Bs.]"<<endl;
+				   cout<<"4) OSB PRO-FORM LP [17mm][2.20m , 1.22m]---------->SYNERGY->[256 Bs.]"<<endl;
+				   cout<<"5) MELAMINA [18mm][2.82m , 1.83m]----------------->SYNERGY->[463 Bs.]"<<endl;
+				   cout<<"6) MELAMINA [15mm][2.20m , 1.22m]----------------->SYNERGY->[414 Bs.]"<<endl;
+				   cout<<"7) FORMICA [6mm][3.08m , 1.25m]------------------->SYNERGY->[175 Bs.]"<<endl;
+				   cout<<"8) Tablero carpintero schwartz[18mm][2.42, 1.22]-->SYNERGY->[550 Bs.]"<<endl;
+				   cout<<"0) ATRAS"<<endl;
+				   cin>>opc4;
+				        switch(opc4){
+						case 1: cout<<"     [OPCION 1]"<<endl;
+								int X12;
+								S13=madera1(X12);
+								cout<<S13<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 2:cout<<"     [OPCION 2]"<<endl;
+								int X13;
+								S14=madera2(X13);
+								cout<<S14<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 3:cout<<"     [OPCION 3]"<<endl;
+								int X14;
+								S15=madera3(X14);
+								cout<<S15<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 4:cout<<"     [OPCION 4]"<<endl;
+								int X15;
+								S16=madera4(X15);
+								cout<<S16<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 5:cout<<"     [OPCION 5]"<<endl;
+								int X16;
+								S17=madera5(X16);
+								cout<<S17<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 6:cout<<"     [OPCION 6]"<<endl;
+								int X17;
+								S18=madera5(X17);
+								cout<<S18<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 7:cout<<"     [OPCION 7]"<<endl;
+								int X18;
+								S19=madera5(X18);
+								cout<<S19<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 8:cout<<"     [OPCION 8]"<<endl;
+								int X19;
+								S20=madera5(X19);
+								cout<<S20<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 0: cout<<"ATRAS"<<endl;
+							    break;
+				       }
+					break;
+
+				 case 5: cout<<"                    [OFERTAS DISPONIBLES]"<<endl<<endl;
+				   cout<<"1) REVESTIMIENTO PVC BLANCO LISTO [10 mm][6m , 0.20m]------------------>SYNERGY->[ 56 Bs.]"<<endl;
+				   cout<<"2) POLICARBONATO TRANSPARENTE [4mm][5.8m , 2.1m]----------------------->SYNERGY->[623 Bs.]"<<endl;
+				   cout<<"3) POLICARBONATO TRANSPARENTE [6mm][5.8m , 2.1m]----------------------->SYNERGY->[935 Bs.]"<<endl;
+				   cout<<"4) POLICARBONATO TRANSPARENTE [8mm][5.8m , 2.1m]---------------------->SYNERGY->[1118 Bs.]"<<endl;
+				   cout<<"5) MASILLA LISTA PARA USAR [20kg]------------------------------------->SYNERGY->[108 Bs.]"<<endl;
+				   cout<<"6) MASILLA REALYMAS [32kg]-------------------------------------------->SYNERGY->[290 Bs.]"<<endl;
+				   cout<<"7) PLACA DE YESO KNAUF [10mm][2.4m , 1.2m]---------------------------->SYNERGY->[61 Bs.]"<<endl;
+				   cout<<"8) PLACA DE YESO KNAUF [12mm][2.4m , 1.2m]---------------------------->SYNERGY->[68 Bs.]"<<endl;
+				   cout<<"9) PLACA DE YESO KNAUF [12.5mm][2.4m , 1.2m]-------------------------->SYNERGY->[105 Bs.]"<<endl;
+				   cout<<"10) PLACA DE YESO DESMONTABLE UNIVERSAL [9.5mm][122Cm , 61Cm]--------->SYNERGY->[18 Bs.]"<<endl; 
+				   cout<<"0) ATRAS"<<endl;
+				   cin>>opc5;
+				     switch(opc5){
+						case 1: cout<<"     [OPCION 1]"<<endl;
+								int X20;
+								S21=madera1(X20);
+								cout<<S21<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 2:cout<<"     [OPCION 2]"<<endl;
+								int X21;
+								S22=madera2(X21);
+								cout<<S22<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 3:cout<<"     [OPCION 3]"<<endl;
+								int X22;
+								S23=madera3(X22);
+								cout<<S23<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 4:cout<<"     [OPCION 4]"<<endl;
+								int X23;
+								S24=madera4(X23);
+								cout<<S24<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 5:cout<<"     [OPCION 5]"<<endl;
+								int X24;
+								S25=madera5(X24);
+								cout<<S25<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 6:cout<<"     [OPCION 6]"<<endl;
+								int X25;
+								S26=madera5(X25);
+								cout<<S26<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 7:cout<<"     [OPCION 7]"<<endl;
+								int X26;
+								S27=madera5(X26);
+								cout<<S27<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 8:cout<<"     [OPCION 8]"<<endl;
+								int X27;
+								S28=madera5(X27);
+								cout<<S28<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+					    case 9:cout<<"     [OPCION 8]"<<endl;
+								int X28;
+								S29=madera5(X28);
+								cout<<S29<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 10:cout<<"     [OPCION 8]"<<endl;
+								int X29;
+								S30=madera5(X29);
+								cout<<S30<<"Bs. [CARGADO AL CARRITO]"<<endl;
+								break;
+						case 0: cout<<"ATRAS"<<endl;
+							break;
+				       }
+					break;
+				 case 6: cout<<"              [OFERTAS DISPONIBLES]  "<<endl<<endl;
+					     cout<<"SYNERGY"<<endl<<endl;
+					     cout<<"1) TEJA SYNERGY TEGAHOME ORANGE BROWN x CAJA [4mm][5m x 1.05m]-------->[254 Bs.]"<<endl;
+						 cout<<"2) TEJA SYNERGY TEGAHOME ORANGE BROWN x CAJA [4mm][3.4m x 1.05m]-------->[175 Bs.]"<<endl;
+						 cout<<"3) TEJA SYY TEGAHOME TERRACOTA x CAJA [5mm][5 x 1.05m]-------->[362 Bs.]"<<endl;
+						 cout<<"4) TEJA SYY TEGAHOME TERRACOTA x CAJA [5mm][3.4m x1.05m]-------->[248 Bs.]"<<endl;
+						 cout<<"0) ATRAS"<<endl;
+						 cin>>opc6;
+						 switch(opc6){
+						 case 1: cout<<"  [OPCION 1]   "<<endl;
+							    int X30;
+								S31=techo1(X30);
+								cout<<S31<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						 break;
+						 case 2: cout<<"  [OPCION 2]   "<<endl;
+							   int X31;
+								S32=techo2(X31);
+								cout<<S32<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						 break;
+						 case 3: cout<<"  [OPCION 1]   "<<endl;
+							 int X32;
+								S33=techo3(X32);
+								cout<<S33<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						 break;
+						 case 4: cout<<"  [OPCION 1]   "<<endl;
+							 int X33;
+								S34=techo4(X33);
+								cout<<S34<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						 break;
+						 case 0: cout<<" ATRAS "<<endl;
+						 break;
+						 }
+			   }
+			                     
+				  
+			   break;
+	   case 2: cout<<"BIENVENIDOS A INSTAMAT DECORA TU HOGAR "<<endl<<endl;
+		       cout<<"                     - Selecciones un area de interes "<<endl;
+			   cout<<"                        1) SUELOS"<<endl;
+			   cout<<"                        2) BAÑOS "<<endl;  
+			   cout<<"                        3) PUERTAS"<<endl;
+			   cout<<"                        4) VIDRIOS"<<endl;
+			   cout<<"                        0) SALIR"<<endl;
+			   cin>>opcion1;
+			   switch(opcion1){
+				   case 1: cout<<"                    [OFERTAS DISPONIBLES]"<<endl<<endl;
+					       cout<<"                     1) MOON WHITE [60X60] -------> GLADYMAR---> [82 Bs.X CAJA]"<<endl;
+						   cout<<"                     2) BASALTO GRIS [60X60] -----> GLADYMAR---> [82 Bs.X CAJA]"<<endl;
+						   cout<<"                     3) FERRARA BLANCO [60X60] ---> GLADYMAR---> [82 Bs.X CAJA]"<<endl;
+						   cout<<"                     4) CEMENTO OPACO [60X60] ----> GLADYMAR---> [82 Bs.X CAJA]"<<endl;
+						   cout<<"                     5) CRISTAL NEGRO [22X34] ----> FABOCE-----> [280 Bs.X CAJA]"<<endl; 
+						   cout<<"                     6) CRISTAL LILA [22X34] -----> FABOCE-----> [280 Bs.X CAJA]"<<endl; 
+						   cout<<"                     7) DIAMANTE BEIGE [22X34] ---> FABOCE-----> [280 Bs.X CAJA]"<<endl; 
+						   cout<<"                     0) ATRAS"<<endl;
+						   cin>>op1;
+						   switch(op1){
+						    case 1: cout<<"  [OPCION 1]   "<<endl;
+							    int X34;
+								S35=suelo1(X34);
+								cout<<S35<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+						    case 2: cout<<"  [OPCION 2]   "<<endl;
+							   int X35;
+								S36=suelo2(X35);
+								cout<<S36<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+						    case 3: cout<<"  [OPCION 3]   "<<endl;
+							   int X36;
+								S37=suelo3(X36);
+								cout<<S37<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+						    case 4: cout<<"  [OPCION 4]   "<<endl;
+							   int X37;
+								S38=suelo4(X37);
+								cout<<S38<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+							case 5: cout<<"  [OPCION 5]   "<<endl;
+							   int X38;
+								S39=suelo5(X38);
+								cout<<S39<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+							case 6: cout<<"  [OPCION 6]   "<<endl;
+							   int X39;
+								S40=suelo6(X39);
+								cout<<S40<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+							case 7: cout<<"  [OPCION 7]   "<<endl;
+							   int X40;
+								S41=suelo7(X40);
+								cout<<S41<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+							case 0: cout<<"ATRAS"<<endl;
+								break;
+						   }
+						   break;
+				   case 2: cout<<"                    [OFERTAS DISPONIBLES]  "<<endl<<endl;
+					       cout<<"1) LAVA MANOS ALTO-------> IGUAZU------>[444 Bs.]"<<endl;
+						   cout<<"2) LAVA MANOS MEDIO-------> IGUAZU------>[456 Bs.]"<<endl;
+						   cout<<"3) LAVA MANOS BAJO-------> BENJOI------>[596 Bs.]"<<endl;
+						   cout<<"4) DUCHA COMPLETA REDONDA-------> IGUAZU------>[355 Bs.]"<<endl;
+						   cout<<"5) DUCHA COMPLETA CUADRADA------> IGUAZU------>[402 Bs.]"<<endl;
+						   cout<<"6) INODORO [30 cm]-------> CANNES------>[1236 Bs.]"<<endl;
+						   cout<<"7) INODORO [30 cm]-------> RIGA-------->[1236 Bs.]"<<endl;
+						   cout<<"0 ATRAS"<<endl;
+						   cin>>op2;
+						   switch(op2){
+						    case 1: cout<<"  [OPCION 1]   "<<endl;
+							    int X41;
+								S42=baño1(X41);
+								cout<<S42<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+						    case 2: cout<<"  [OPCION 2]   "<<endl;
+							   int X42;
+								S43=baño2(X42);
+								cout<<S43<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+						    case 3: cout<<"  [OPCION 3]   "<<endl;
+							   int X43;
+								S44=baño3(X43);
+								cout<<S44<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+						    case 4: cout<<"  [OPCION 4]   "<<endl;
+							   int X44;
+								S45=baño4(X44);
+								cout<<S45<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+							case 5: cout<<"  [OPCION 5]   "<<endl;
+							   int X45;
+								S46=baño5(X45);
+								cout<<S46<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+							case 6: cout<<"  [OPCION 6]   "<<endl;
+							   int X46;
+								S47=baño6(X46);
+								cout<<S47<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+							case 7: cout<<"  [OPCION 7]   "<<endl;
+							    int X47;
+								S48=baño7(X47);
+								cout<<S48<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						        break;
+							case 0: cout<<"ATRAS"<<endl;
+								break;
+						   }
+						   break;
+				   case 3: cout<<"                    [OFERTAS DISPONIBLES]  "<<endl<<endl;
+					       cout<<"1) PUERTA MOLDEADA [0.90 x 2.10 m]------------> [665 BS.]"<<endl;
+						   cout<<"2) PUERTA PLANCHA METALICA -------------------> [239 Bs.]"<<endl;
+						   cout<<"3) PUERTA MADERA TIPO FLOTANTE ---------------> [1.043 Bs.]"<<endl;
+						   cout<<"4) PUERTA EXTERIO MOLDEADA [1.00 x 2.10 m ]---> [1.181 Bs.]"<<endl;
+						   cout<<"0) ATRAS"<<endl;
+						   cin>>op3;
+						   switch(op3){
+						   case 1: cout<<"[OPCION 1]"<<endl;
+							   int X48;
+								S49=puerta1(X48);
+								cout<<S49<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						   break;
+						   case 2: cout<<"[OPCION 1]"<<endl;
+							   int X49;
+								S50=puerta2(X49);
+								cout<<S50<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						   break;
+						   case 3: cout<<"[OPCION 1]"<<endl;
+							   int X50;
+								S51=puerta3(X50);
+								cout<<S51<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						   break;
+						   case 4: cout<<"[OPCION 1]"<<endl;
+							   int X51;
+								S52=puerta4(X51);
+								cout<<S52<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						   break;
+						   case 0: cout<<"ATRAS"<<endl;
+						   }
+						   break;
+						case 4: cout<<"                    [OFERTAS DISPONIBLES]  "<<endl<<endl;
+					       cout<<"1) VIDRIO PLANO INCOLORO]---------> [45 Bs. x m2]"<<endl;
+						   cout<<"2) VIDRIO CATEDRAL INCOLORO-------> [49 Bs. x m2] "<<endl;
+						   cout<<"3) VIDRIO RAYBAN [3mm]------------> [108 Bs. x m2]"<<endl;
+						   cout<<"4) VIDRIO TEMPLADO [8mm]----------> [255 Bs. x m2]"<<endl;
+						   cout<<"0) ATRAS"<<endl;
+						   cin>>op4;
+						   switch(op4){
+						   case 1: cout<<"[OPCION 1]"<<endl;
+							   int X52;
+								S53=vidrio1(X52);
+								cout<<S53<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						   break;
+						   case 2: cout<<"[OPCION 1]"<<endl;
+							   int X53;
+								S54=vidrio2(X53);
+								cout<<S54<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						   break;
+						   case 3: cout<<"[OPCION 1]"<<endl;
+							   int X54;
+								S55=vidrio3(X54);
+								cout<<S55<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						   break;
+						   case 4: cout<<"[OPCION 1]"<<endl;
+							   int X55;
+								S56=vidrio4(X55);
+								cout<<S56<<"Bs. [CARGADO AL CARRITO]"<<endl;
+						   break;
+						   case 0: cout<<"ATRAS"<<endl;
+						   }
+
+			   }
+			 break;
+	   case 3: cout<<"BIENVENIDOS A INSTAMTA REPARA TU HOGAR"<<endl<<endl;
+		       cout<<"                     - Selecciones un area de interes"<<endl;
+			   cout<<"                       1) PINTURA"<<endl;
+			   cout<<"                       2) PEGAMENTOS Y SELLADORES"<<endl;
+			   cout<<"                       3) BARNIZ"<<endl;
+			   cout<<"                       0) ATRAS"<<endl;
+			   cin>>opcion2;
+			          switch(opcion2){
+
+					  case 1 :cout<<"                    [OFERTAS DISPONIBLES]"<<endl<<endl;
+						      cout<<"                    [CASA COLOR PINTURAS]"<<endl<<endl;
+					          cout<<"                     1) ACRILICA -------------> [140 Bs.]"<<endl;
+						      cout<<"                     2) RUSTICA --------------> [146 Bs.]"<<endl;
+						      cout<<"                     3) EMBORRACHADO ---------> [310 Bs.]"<<endl;
+						      cout<<"                     4) BLANCO MATE ----------> [280 Bs.]"<<endl;
+						      cout<<"                     5) LAMENTO BLANCO -------> [150 Bs.]"<<endl; 
+						      cout<<"                     0) ATRAS"<<endl;
+							  cin>>o;
+							           switch(o){
+							           
+									   case 1: cout<<"          [OPCION 1]"<<endl;
+												int X56;
+								                S57=pintura1(X56);
+								                cout<<S57<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 2: cout<<"          [OPCION 2]"<<endl;
+										       int X57;
+								                S58=pintura2(X57);
+								                cout<<S58<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 3: cout<<"          [OPCION 3]"<<endl;
+										       int X58;
+								                S59=pintura3(X58);
+								                cout<<S59<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 4: cout<<"          [OPCION 4]"<<endl;
+										       int X59;
+								                S60=pintura4(X59);
+								                cout<<S60<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 5: cout<<"          [OPCION 5]"<<endl;
+										       int X60;
+								                S61=pintura5(X60);
+								                cout<<S61<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 0: cout<<" ATRAS"<<endl;
+										       break;
+							           }
+							break;
+					  case 2 :cout<<"                    [OFERTAS DISPONIBLES]"<<endl<<endl;
+						      cout<<"                    [CASA COLOR PEGADORES Y SELLADORES]"<<endl<<endl;
+					          cout<<"                     1) SIKAFLEX 1A -------------> [85 Bs.]"<<endl;
+						      cout<<"                     2) SIKAFLEX UNIVERSAL --------------> [65 Bs.]"<<endl;
+						      cout<<"                     3) RIBECOLA [400 gr] ---------> [45 Bs.]"<<endl;
+						      cout<<"                     4) PEGADO ACRILICO [20kg]----------> [95 Bs.]"<<endl;
+						      cout<<"                     0) ATRAS"<<endl;
+							  cin>>o1;
+							           switch(o1){
+							           
+									   case 1: cout<<"          [OPCION 1]"<<endl;
+												int X61;
+								                S62=sellador1(X61);
+								                cout<<S62<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 2: cout<<"          [OPCION 2]"<<endl;
+										       int X62;
+								                S63=sellador2(X62);
+								                cout<<S63<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 3: cout<<"          [OPCION 3]"<<endl;
+										       int X63;
+								                S64=sellador3(X63);
+								                cout<<S64<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 4: cout<<"          [OPCION 4]"<<endl;
+										       int X64;
+								                S65=sellador4(X64);
+								                cout<<S65<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 0: cout<<" ATRAS"<<endl;
+										       break;
+							           }
+							break;
+					  case 3 :cout<<"                    [OFERTAS DISPONIBLES]"<<endl<<endl;
+						      cout<<"                    [CASA COLOR BARNIZ]"<<endl<<endl;
+					          cout<<"                     1) STAIN MAJESTIC [3,6 lt]-------------> [180 Bs.]"<<endl;
+						      cout<<"                     2) STAIN DECK [3,6 lt] --------------> [330 Bs.]"<<endl;
+						      cout<<"                     3) STAIN CLASIC MAJESTIC [3,6 lt]  ---------> [240 Bs.]"<<endl;
+						      cout<<"                     4) MAJESTIC SOLAR NATURAL[3,6 lt] ----------> [220 Bs.]"<<endl;
+						      cout<<"                     0) ATRAS"<<endl;
+							  cin>>o1;
+							           switch(o1){
+							           
+									   case 1: cout<<"          [OPCION 1]"<<endl;
+												int X65;
+								                S66=barniz1(X65);
+								                cout<<S66<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 2: cout<<"          [OPCION 2]"<<endl;
+										       int X66;
+								                S67=barniz2(X66);
+								                cout<<S67<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 3: cout<<"          [OPCION 3]"<<endl;
+										       int X67;
+								                S68=barniz3(X67);
+								                cout<<S68<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 4: cout<<"          [OPCION 4]"<<endl;
+										       int X68;
+								                S69=barniz4(X68);
+								                cout<<S69<<"Bs. [CARGADO AL CARRITO]"<<endl;
+										       break;
+									   case 0: cout<<" ATRAS"<<endl;
+										       break;
+							           }
+			           }
+			   break;
+
+	   case 4: 
+		   
+
+		   cout<<"       GRACIAS POR COMPRAR CON INSTAMAT"<<endl<<endl;
+		   cout<<"INSTAMAT cuneta con un servicio de delivery para su comodidad"<<endl;
+		   
+		   cout<<"DATOS INSTAMAT "; getline(cin,ins);
+		   cout<<" \n Ingrese su NIT "<<endl; getline(cin,NIT);
+		   cout<<"Ingrese el nombre para la factura "<<endl;getline(cin,factura);
+		   cout<<"Ingrese su ubicacion "<<endl;getline(cin,ubicacion);
+		   cout<<"Desea añadir alguna recomendacion para el envio de su pedido "<<endl;getline(cin,recomendacion);
+		   double TOTAL;
+		   TOTAL= S1+S2+S3+S4+S5+S6+S7+S8+S9+S10+S11+S12+S13+S14+S15+S16+S17+S18+S19+S20+S21+S22+S23+S24+S25+S26+S27+S28+S29+S30+S31+S32+S33+S34+S35+S36+S37+S38+S39+S40+S41+S42+S43+S44+S45+S46+S47+S48+S49+S50+S51+S52+S53+S54+S55+S56+S57+S58+S59+S60+S61+S62+S63+S64+S65+S66+S67+S68+S69;
+
+		   cout<<"--------------------------------------------------------------"<<endl;
+		   cout<<"PROCESANDO SU INFORMACION......."<<endl<<endl;
+
+		   
+		   cout<<"NIT "<<NIT<<endl;
+		   cout<<"Sr(a) "<<factura<<endl;
+		   cout<<"TOTAL ["<<TOTAL<<" Bs.]"<<endl;
+		   cout<<"--------------------------------------------------------------"<<endl;
+		  
+
+		   Registros.setArchivo(nombreCliente, correo, telefono,
+	       factura, ubicacion, recomendacion, NIT);
+
+			   break;
+	   default : cout<<"             OPCION INVALIDA"<<endl;break;
+}
+
+getch();
+system("cls");
+}while(opc!=0);
+
+getch();
+return 0;
+}
+
+// CEMENTO SOBOCE IP 30
+int CementoSoboceIP30(int X1){
+int bolsas,total=0;
+cout<<"[El precio unitario de cemento soboce es de 48 Bs.]"<<endl<<endl;
+cout<<"Ingrese la cantidad de bolsas que desee"<<endl;
+cin>>bolsas;
+total= bolsas*48;
+return total;
+
+}
+
+//CEMENTO ITACAMABA IP30
+int CementoItacambaIP30(int X1){
+int bolsas,total=0;
+cout<<"[El precio unitario de cemento soboce es de 47 Bs.]"<<endl<<endl;
+cout<<"Ingrese la cantidad de bolsas que desee"<<endl;
+cin>>bolsas;
+total= bolsas*47;
+return total;
+}
+
+//CEMENTO WARNES IP 30
+int CementoWarnesIP30(int X2){
+int bolsas,total=0;
+cout<<"[El precio unitario de cemento soboce es de 48 Bs.]"<<endl<<endl;
+cout<<"Ingrese la cantidad de bolsas que desee"<<endl;
+cin>>bolsas;
+total= bolsas*48;
+return total;
+}
+
+//CEMENTO SOBOCE IP 40
+int CementoSoboceIP40(int X3){
+int bolsas,total=0;
+cout<<"[El precio unitario de cemento soboce es de 45 Bs.]"<<endl<<endl;
+cout<<"Ingrese la cantidad de bolsas que desee"<<endl;
+cin>>bolsas;
+total= bolsas*45;
+return total;
+}
+
+//CEMENTO ITACAMBA IP 40
+int CementoItacambaIP40(int X4){
+int bolsas,total=0;
+cout<<"[El precio unitario de cemento soboce es de 43 Bs.]"<<endl<<endl;
+cout<<"Ingrese la cantidad de bolsas que desee"<<endl;
+cin>>bolsas;
+total= bolsas*43;
+return total;
+}
+
+
+// CEMENTO WARNES IP 40
+int CementoWarnesIP40(int X5){
+int bolsas,total=0;
+cout<<"[El precio unitario de cemento soboce es de 44 Bs.]"<<endl<<endl;
+cout<<"Ingrese la cantidad de bolsas que desee"<<endl;
+cin>>bolsas;
+total= bolsas*44;
+return total;
+}
+
+// tuberia 1
+int tuberia1(int X6){
+int cantidad,total=0;
+cout<<"TUBERIA PVC HELICOIDAL 1000 mL  [1.450 Bs.]";
+cout<<"Ingrese la cantidad de tuberias que desee"<<endl;
+cin>>cantidad;
+total=cantidad*1450;
+return total;
+}
+
+// tuberia 2
+int tuberia2(int X7){
+int cantidad,total=0;
+cout<<"pTUBERIA PVC HELICOIDAL 600 mL   [860 Bs.]";
+cout<<"Ingrese la cantidad de bolsas que desee"<<endl;
+cin>>cantidad;
+total= cantidad*860;
+return total;
+}
+
+// tuberia 3
+int tuberia3(int X8){
+int cantidad,total=0;
+cout<<"TUBERIA PVC HELICOIDAL 700mL [950 Bs.]"<<endl;
+cout<<"Ingrese la cantidad de tuberias que desee"<<endl;
+cin>>cantidad;
+total= cantidad*950;
+return total;
+}
+
+// LADRILLO TIPO 1
+int ladrillo1(int X9){
+ float cantidad,total;
+cout<<"[El precio unitario del ladrillo es de 1.36 Bs.]"<<endl;
+cout<<"Ingrese la cantidad de ladrillos que desee"<<endl;
+cin>>cantidad;
+total=cantidad*1.36;
+return total;
+}
+
+//LADRILLO TIPO 2
+int ladrillo2(int X10){
+float cantidad,total;
+cout<<"[El precio unitario del ladrillo es de 1.26 Bs.]"<<endl;
+cout<<"Ingrese la cantidad de ladrillos que desee"<<endl;
+cin>>cantidad;
+total=cantidad*1.26;
+return total;
+}
+
+//LADRILLO TIPO 3
+int ladrillo3(int X11){
+float cantidad, total;
+cout<<"[El precio unitario del ladrillo es de 2.30 Bs.]"<<endl;
+cout<<"Ingrese la cantidad de ladrillos que desee"<<endl;
+cin>>cantidad;
+total=cantidad*2.30;
+return total;
+}
+
+//MADERA 1
+int madera1(int X12){
+int cantidad, total;
+cout<<"OSB LP [9.5mm][2.44m , 1.22m] ---->[143 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*143;
+return total;
+}
+
+//MADERA 2
+int madera2(int X13){
+int cantidad, total;
+cout<<"OSB LP [11.1mm][2.44m , 1.22m]---->[160 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*160;
+return total;
+}
+
+//MADERA 3
+int madera3(int X14){
+int cantidad, total;
+cout<<"OSB LP [15.1mm][2.44m , 1.22m]---->[212 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*212;
+return total;
+}
+
+//MADERA 4
+int madera4(int X15){
+int cantidad, total;
+cout<<"OSB PRO-FORM LP [17mm][2.20m , 1.22m]---->[256 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*256;
+return total;
+}
+
+//MADERA 5
+int madera5(int X16){
+int cantidad, total;
+cout<<"MELAMINA [18mm][2.82m , 1.83m]----->[463 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*463;
+return total;
+}
+
+//MADERA 6
+int madera6(int X17){
+int cantidad, total;
+cout<<" MELAMINA [15mm][2.20m , 1.22m]----->[414 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*414;
+return total;
+}
+
+//MADERA 7
+int madera7(int X18){
+int cantidad, total;
+cout<<"FORMICA [6mm][3.08m , 1.25m]----->[175 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*175;
+return total;
+}
+
+//MADERA 8
+int madera8(int X19){
+int cantidad, total;
+cout<<"Tablero carpintero schwartz[18mm][2.42, 1.22]--->[550 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*550;
+return total;
+}
+
+//Cseco 1
+int Cseco1(int X20){
+int cantidad, total;
+cout<<"REVESTIMIENTO PVC BLANCO LISTO [10 mm][6m , 0.20m]--->[ 56 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*56;
+return total;
+}
+
+//Cseco 2
+int Cseco2(int X21){
+int cantidad, total;
+cout<<"POLICARBONATO TRANSPARENTE [4mm][5.8m , 2.1m]--->[623 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*623;
+return total;
+}
+
+//Cseco 3
+int Cseco3(int X22){
+int cantidad, total;
+cout<<"POLICARBONATO TRANSPARENTE [6mm][5.8m , 2.1m]--->[935 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*935;
+return total;
+}
+
+//Cseco 4
+int Cseco4(int X23){
+int cantidad, total;
+cout<<"POLICARBONATO TRANSPARENTE [8mm][5.8m , 2.1m]--->[1118 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*1118;
+return total;
+}
+
+//Cseco 5
+int Cseco5(int X24){
+int cantidad, total;
+cout<<" MASILLA LISTA PARA USAR [20kg]--->[108 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*108;
+return total;
+}
+
+//Cseco 6
+int Cseco6(int X25){
+int cantidad, total;
+cout<<"MASILLA REALYMAS [32kg]--->[290 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*290;
+return total;
+}
+
+//Cseco 7
+int Cseco7(int X26){
+int cantidad, total;
+cout<<" PLACA DE YESO KNAUF [10mm][2.4m , 1.2m]--->[61 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*61;
+return total;
+}
+
+//Cseco 8
+int Cseco8(int X27){
+int cantidad, total;
+cout<<"PLACA DE YESO KNAUF [12mm][2.4m , 1.2m]--->[68 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*68;
+return total;
+}
+
+//Cseco 9
+int Cseco9(int X28){
+int cantidad, total;
+cout<<" PLACA DE YESO KNAUF [12.5mm][2.4m , 1.2m]--->[105 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*105;
+return total;
+}
+
+//Cseco 10
+int Cseco10(int X29){
+int cantidad, total;
+cout<<"PLACA DE YESO DESMONTABLE UNIVERSAL [9.5mm][122Cm , 61Cm]--->[18 Bs.]"<<endl;
+cout<<"ingrese la cantidad de piezas que desee"<<endl;
+cin>>cantidad;
+total=cantidad*18;
+return total;
+}
+
+//TECHO 1
+int techo1(int X30){
+int cantidad,total;
+cout<<"TEJA SYNERGY TEGAHOME ORANGE BROWN x CAJA [4mm][5m x 1.05m]-------->[254 Bs.]"<<endl<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*254;
+return total;
+}
+
+//TECHO 2
+int techo2(int X31){
+int cantidad,total;
+cout<<"TEJA SYNERGY TEGAHOME ORANGE BROWN x CAJA [4mm][3.4m x 1.05m]-------->[175 Bs.]"<<endl<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*175;
+return total;
+}
+
+
+//TECHO 3
+int techo3(int X32){
+int cantidad,total;
+cout<<"TEJA SYY TEGAHOME TERRACOTA x CAJA [5mm][5 x 1.05m]-------->[362 Bs.]"<<endl<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*362;
+return total;
+}
+
+
+//TECHO 4
+int techo4(int X33){
+int cantidad,total;
+cout<<"TEJA SYY TEGAHOME TERRACOTA x CAJA [5mm][3.4m x1.05m]-------->[248 Bs.]"<<endl<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*248;
+return total;
+}
+
+//suelo 1
+int suelo1(int X34){
+int cantidad,total;
+cout<<"MOON WHITE [60X60] -------> GLADYMAR---> [82 Bs.X CAJA]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*82;
+return total;
+}
+
+//suelo 2
+int suelo2(int X35){
+int cantidad,total;
+cout<<"BASALTO GRIS [60X60] -----> GLADYMAR---> [82 Bs.X CAJA]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*82;
+return total;
+}
+
+//suelo 3
+int suelo3(int X36){
+int cantidad,total;
+cout<<"FERRARA BLANCO [60X60] ---> GLADYMAR---> [82 Bs.X CAJA]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*82;
+return total;
+}
+
+//suelo 4
+int suelo4(int X37){
+int cantidad,total;
+cout<<"CEMENTO OPACO [60X60] ----> GLADYMAR---> [82 Bs.X CAJA]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*82;
+return total;
+}
+
+//suelo 5
+int suelo5(int X38){
+int cantidad,total;
+cout<<"CRISTAL NEGRO [22X34] ----> FABOCE-----> [280 Bs.X CAJA]"<<endl; 
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*280;
+return total;
+}
+
+//suelo 6
+int suelo6(int X39){
+int cantidad,total;
+cout<<"CRISTAL LILA [22X34] -----> FABOCE-----> [280 Bs.X CAJA]"<<endl; 
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*280;
+return total;
+}
+
+//suelo 7
+int suelo7(int X40){
+int cantidad,total;
+cout<<"DIAMANTE BEIGE [22X34] ---> FABOCE-----> [280 Bs.X CAJA]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*280;
+return total;
+}
+
+//baño 1
+int baño1(int X41){
+int cantidad,total;
+cout<<"LAVA MANOS ALTO-------> IGUAZU------>[444 Bs.]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*444;
+return total;
+}
+
+//baño 2
+int baño2(int X42){
+int cantidad,total;
+cout<<"LAVA MANOS MEDIO-------> IGUAZU------>[456 Bs.]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*456;
+return total;
+}
+
+//baño 3
+int baño3(int X43){
+int cantidad,total;
+cout<<"LAVA MANOS BAJO-------> BENJOI------>[596 Bs.]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*596;
+return total;
+}
+
+//baño 4
+int baño4(int X44){
+int cantidad,total;
+cout<<" DUCHA COMPLETA REDONDA-------> IGUAZU------>[355 Bs.]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*355;
+return total;
+}
+
+//baño 5
+int baño5(int X45){
+int cantidad,total;
+cout<<"DUCHA COMPLETA CUADRADA------> IGUAZU------>[402 Bs.]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*402;
+return total;
+}
+
+//baño 6
+int baño6(int X46){
+int cantidad,total;
+cout<<"INODORO [30 cm]-------> CANNES------>[1236 Bs.]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*1236;
+return total;
+}
+
+//baño 7
+int baño7(int X47){
+int cantidad,total;
+cout<<"INODORO [30 cm]-------> RIGA-------->[1236 Bs.]"<<endl;
+cout<<"ingrese la cantidad de cajas que desea"<<endl;
+cin>>cantidad;
+total=cantidad*1236;
+return total;
+}
+
+//PUERTA 1
+int puerta1(int X48){
+int cantidad,total;
+cout<<"PUERTA MOLDEADA [0.90 x 2.10 m]   [665 BS.]"<<endl;
+cout<<"Ingrese la cantdad de puertas que desea "<<endl;
+cin>>cantidad;
+total=cantidad*665;
+return total;
+}
+
+//PUERTA 2
+int puerta2(int X49){
+int cantidad,total;
+cout<<"PUERTA PLANCHA METALICA [239 Bs.]"<<endl;
+cout<<"Ingrese la cantdad de puertas que desea "<<endl;
+cin>>cantidad;
+total=cantidad*239;
+return total;
+}
+
+//PUERTA 3
+int puerta3(int X50){
+int cantidad,total;
+cout<<"PUERTA MADERA TIPO FLOTANTE [1.043 Bs.]"<<endl;
+cout<<"Ingrese la cantdad de puertas que desea "<<endl;
+cin>>cantidad;
+total=cantidad*1043;
+return total;
+}
+
+//PUERTA 4
+int puerta4(int X51){
+int cantidad,total;
+cout<<"PUERTA EXTERIO MOLDEADA [1.00 x 2.10 m ]  [1.181 Bs.]"<<endl;
+cout<<"Ingrese la cantdad de puertas que desea "<<endl;
+cin>>cantidad;
+total=cantidad*1181;
+return total;
+}
+
+//vidrio 1
+int vidrio1(int X52){
+int cantidad,total;
+cout<<"VIDRIO PLANO INCOLORO]  [45 Bs. x m2]"<<endl;
+cout<<"Ingrese la cantdad de vidrios que desea "<<endl;
+cin>>cantidad;
+total=cantidad*45;
+return total;
+}
+
+//vidrio 2
+int vidrio2(int X53){
+int cantidad,total;
+cout<<"VIDRIO CATEDRAL INCOLORO  [49 Bs. x m2]"<<endl;
+cout<<"Ingrese la cantdad de vidrios que desea "<<endl;
+cin>>cantidad;
+total=cantidad*49;
+return total;
+}
+
+//vidrio 3
+int vidrio3(int X54){
+int cantidad,total;
+cout<<"VIDRIO RAYBAN [3mm]  [108 Bs. x m2]"<<endl;
+cout<<"Ingrese la cantdad de vidrios que desea "<<endl;
+cin>>cantidad;
+total=cantidad*108;
+return total;
+}
+
+//vidrio 4
+int vidrio4(int X55){
+int cantidad,total;
+cout<<"VIDRIO TEMPLADO [8mm] [255 Bs. x m2]"<<endl;
+cout<<"Ingrese la cantdad de vidrios que desea "<<endl;
+cin>>cantidad;
+total=cantidad*255;
+return total;
+}
+
+//PINTURA 1
+int pintura1(int X56){
+int cantidad,total;
+cout<<" ARICOLA [140 Bs.]"<<endl;
+cout<<"Ingrese la cantidad de botes de pintura que desee"<<endl;
+cin>>cantidad;
+total=cantidad*140;
+return total;
+}
+
+//PINTURA 2
+int pintura2(int X57){
+int cantidad,total;
+cout<<" RUSTICA [146 Bs.]"<<endl;
+cout<<"Ingrese la cantidad de botes de pintura que desee"<<endl;
+cin>>cantidad;
+total=cantidad*146;
+return total;
+}
+
+//PINTURA 3
+int pintura3(int X58){
+int cantidad,total;
+cout<<" EMBORRECHADO [310 Bs.]"<<endl;
+cout<<"Ingrese la cantidad de botes de pintura que desee"<<endl;
+cin>>cantidad;
+total=cantidad*310;
+return total;
+}
+
+//PINTURA 4
+int pintura4(int X59){
+int cantidad,total;
+cout<<" BLANCO MATE [280 Bs.]"<<endl;
+cout<<"Ingrese la cantidad de botes de pintura que desee"<<endl;
+cin>>cantidad;
+total=cantidad*280;
+return total;
+}
+
+//PINTURA 5
+int pintura5(int X60){
+int cantidad,total;
+cout<<" LAMENTO BLANCO [150 Bs.]"<<endl;
+cout<<"Ingrese la cantidad de botes de pintura que desee"<<endl;
+cin>>cantidad;
+total=cantidad*150;
+return total;
+}
+
+//sellador 1
+int sellador1(int X61){
+int cantidad,total;
+cout<<" SIKAFLEX 1A -------------> [85 Bs.]"<<endl;
+cout<<"Ingrese la cantidad que desee"<<endl;
+cin>>cantidad;
+total=cantidad*85;
+return total;
+}
+
+//sellador 2
+int sellador2(int X62){
+int cantidad,total;
+cout<<"SIKAFLEX UNIVERSAL --------------> [65 Bs.]"<<endl;
+cout<<"Ingrese la cantidad que desee"<<endl;
+cin>>cantidad;
+total=cantidad*65;
+return total;
+}
+
+//sellador 3
+int sellador3(int X63){
+int cantidad,total;
+cout<<"RIBECOLA [400 gr] ---------> [45 Bs.]"<<endl;
+cout<<"Ingrese la cantidad que desee"<<endl;
+cin>>cantidad;
+total=cantidad*45;
+return total;
+}
+
+//sellador 4
+int sellador4(int X64){
+int cantidad,total;
+cout<<"PEGADO ACRILICO [20kg]----------> [95 Bs.]"<<endl;
+cout<<"Ingrese la cantidad que desee"<<endl;
+cin>>cantidad;
+total=cantidad*95;
+return total;
+}
+
+//barniz 1
+int barniz1(int X65){
+int cantidad,total;
+cout<<"STAIN MAJESTIC [3,6 lt]-------------> [180 Bs.]"<<endl;
+cout<<"Ingrese la cantidad que desee"<<endl;
+cin>>cantidad;
+total=cantidad*180;
+return total;
+}
+
+//barniz 2
+int barniz2(int X66){
+int cantidad,total;
+cout<<"STAIN DECK [3,6 lt] --------------> [330 Bs.]"<<endl;
+cout<<"Ingrese la cantidad que desee"<<endl;
+cin>>cantidad;
+total=cantidad*330;
+return total;
+}
+
+//barniz 3
+int barniz3(int X67){
+int cantidad,total;
+cout<<"STAIN CLASIC MAJESTIC [3,6 lt]  ---------> [240 Bs.]"<<endl;
+cout<<"Ingrese la cantidad que desee"<<endl;
+cin>>cantidad;
+total=cantidad*240;
+return total;
+}
+
+//barniz 4
+int barniz4(int X68){
+int cantidad,total;
+cout<<"MAJESTIC SOLAR NATURAL[3,6 lt] ----------> [220 Bs.]"<<endl;
+cout<<"Ingrese la cantidad que desee"<<endl;
+cin>>cantidad;
+total=cantidad*220;
+return total;
+}
