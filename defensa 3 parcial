@@ -1,0 +1,63 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#define MAX 40
+using namespace std;
+
+void cargar (int vec[], int n);
+void cargar (int vec1[], int m);
+void mostrar(int vec[], int n);
+void mostrar(int vec1[], int m);
+void unir (int vec[], int n, int vec1[],int m,int vec2[], int &tam);
+int main()
+{
+	int vec[MAX],n,m,vec1[MAX], tam, vec2[MAX];
+	do{
+	cout<<"ingrese el tamaño del vector A: "<<endl;
+	cin>>n;
+	}while((n<=0) || (n>MAX));
+	do{
+	cout<<"ingrese el tamaño del vector B: "<<endl;
+	cin>>m;
+	}while((m<=0) || (m>MAX));
+	cargar(vec,n);
+	cargar(vec1,m);
+    mostrar(vec,n);
+	mostrar(vec1,m);
+	cout<<"los valores del vector c son: "<<endl;
+	unir (vec,n,vec1,m,vec2,tam);
+	getch();
+	return 0;
+}
+
+void cargar (int vec[], int n){
+	for(int i=0;i<n;i++)
+	{
+       cout<<"vector["<<i<<"]= ";
+	   cin>>vec[i];
+	}
+}
+
+
+
+
+void mostrar(int vec[], int n){
+	
+	for(int i=0;i<n;i++)
+	{
+	 cout<<"vector["<<i<<"]= ";
+	 cin>>vec[i];
+	}
+}
+
+
+
+void unir (int vec[], int n, int vec1[],int m,int vec2[], int &tam){
+
+
+	for(int i=0;i<n;i++)
+		vec2[i]=vec[i];
+	for(int i=0;i<m;i++)
+		vec2[i+n]=vec1[i];
+	tam=n+m;
+}
