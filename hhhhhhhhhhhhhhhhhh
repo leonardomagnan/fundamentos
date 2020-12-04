@@ -1,0 +1,25 @@
+	 case 7: cout<<"              [OFERTAS DISPONIBLES]  "<<endl<<endl;
+					     cout<<"SYNERGY"<<endl<<endl;
+					     cout<<"1) PINTADO DE METAL-------->[250 Bs.]"<<endl;
+						  cin>>opc7;
+						 switch(opc7){
+						 case 1: cout<<"  [OPCION 1]   "<<endl;
+							 	 int X100;
+								S70=metal(X100);
+								cout<<S70<<"Bs. [CARGADO AL CARRITO]"<<endl;
+							break;
+			   }
+			         
+               
+               
+               
+               
+               //metal
+int metal(int X100){
+int cantidad,total;
+cout<<"PINTADO DE METAL-------->[250 Bs.]"<<endl;
+cout<<"Ingrese la cantidad que desee"<<endl;
+cin>>cantidad;
+total=cantidad*250;
+return total;
+}
